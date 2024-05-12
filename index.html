@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Styles/style.css" />
     <meta name="description" content="Автор изучает основы Web" />
-    <meta name="keywords" content="HTML, CSS, JavaScript, Python, SQL" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Python, SQL, foxserjo"
+    />
     <link
       rel="icon"
       href="Images/photo_2024-05-11_16-36-51.jpg"
@@ -13,5 +16,78 @@
     />
     <title>My Site</title>
   </head>
-  <body></body>
+  <body>
+    <form action="">
+      <label for="name">Имя</label>
+      <input type="text" id="name" placeholder="Введите имя" />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Введите email" />
+      <br />
+      <label for="tel">Телефон</label>
+      <input type="tel" placeholder="Введите номер телефона" id="tel" />
+      <br />
+      <label for="login">Логин</label>
+      <input type="text" id="login" placeholder="Введите логин" />
+      <br />
+      <br />
+      <br />
+      <input type="checkbox" id="HTML" name="language" value="HTML" />
+      <label for="HTML">Хочу изучать HTML</label>
+      <br />
+      <input type="checkbox" id="CSS" name="language" value="CSS" />
+      <label for="CSS">Хочу изучать CSS</label>
+      <br />
+      <input type="checkbox" id="JS" name="language" value="JS" />
+      <label for="JS">Хочу изучать JavaScript</label>
+
+      <br />
+      <input type="checkbox" id="Python" name="language" value="Python" />
+      <label for="Python">Хочу изучать Python</label>
+      <br />
+      <br />
+      <br />
+      <input type="radio" id="IDE" name="interpretator" value="IDE" />
+      <label for="IDE">Программировать в IDE</label>
+      <br />
+      <input type="radio" id="VSCode" name="interpretator" value="VSCode" />
+      <label for="VSCode">Программировать в VSCode</label>
+      <br />
+      <br />
+      <br />
+      <textarea rows="5" cols="30">Расскажите о себе</textarea>
+      <br />
+      <br />
+      <br />
+      <select>
+        <option disabled>Выберите подписку</option>
+        <option>Free (0&#8381;)</option>
+        <option>Bronze (400&#8381;)</option>
+        <option>Silver (700&#8381;)</option>
+        <option>Gold (1000&#8381;)</option>
+        <option>Premium (1500&#8381;)</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <select multiple>
+        <option disabled>Выберите помощников</option>
+        <option>Иван <i>Журавлев</i></option>
+        <option>Валентин <i>Ермолин</i></option>
+        <option>Ярослав <i>Чистяков</i></option>
+        <option>Святослав <i>Ивков</i></option>
+        <option>Геннадий <i>Плотников</i></option>
+        <option>Иван <i>Мельник</i></option>
+        <option>Трофим <i>Плотников</i></option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <label for="pin">Придумайте пароль</label>
+      <input type="password" id="pin" placeholder="Введите пароль" />
+      <br />
+      <br />
+      <button>Отправить</button>
+    </form>
+  </body>
 </html>
